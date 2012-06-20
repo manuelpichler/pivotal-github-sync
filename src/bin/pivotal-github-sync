@@ -11,7 +11,7 @@
 namespace PivotalGitHubSync;
 
 // Initialize autoload stuff
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../../vendor/autoload.php';
 
 // Run default shell tool
 exit( Cli::main() );
