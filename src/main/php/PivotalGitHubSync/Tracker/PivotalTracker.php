@@ -9,7 +9,7 @@
 
 namespace PivotalGitHubSync\Tracker;
 
-use \pivotal;
+use \PivotalTracker\Client;
 use \PivotalGitHubSync\Issue;
 use \PivotalGitHubSync\Tracker;
 
@@ -19,14 +19,14 @@ use \PivotalGitHubSync\Tracker;
 class PivotalTracker implements Tracker
 {
     /**
-     * API wrapper used to access Pivotaltracker data.
+     * API wrapper used to access PivotalTracker data.
      *
-     * @var \pivotal
+     * @var \PivotalTracker\Client
      */
     private $pivotal;
 
     /**
-     * Pivotaltracker issue states, that represent an open issue.
+     * PivotalTracker issue states, that represent an open issue.
      *
      * @var array
      */
@@ -38,7 +38,7 @@ class PivotalTracker implements Tracker
     );
 
     /**
-     * Constructs a new Tracker instance for Pivotaltracker.
+     * Constructs a new Tracker instance for PivotalTracker.
      *
      * @param string $username
      * @param string $password
@@ -46,7 +46,7 @@ class PivotalTracker implements Tracker
      */
     public function __construct( $username, $password, $project )
     {
-        $this->pivotal = new \PivotalGitHubSync\Glue\PivotalClient( $project );
+        $this->pivotal = new Client( $project );
         $this->pivotal->authenticate( $username, $password );
     }
 

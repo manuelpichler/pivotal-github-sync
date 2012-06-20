@@ -1,10 +1,6 @@
 {
-    "hash": "787a2339c64366eeb8f4fe3aa21903ed",
+    "hash": "1d467fcbdb87288e925838a306469624",
     "packages": [
-        {
-            "package": "codazoda/pptc",
-            "version": "0.1"
-        },
         {
             "package": "knplabs/github-api",
             "version": "dev-master",
@@ -13,6 +9,11 @@
         {
             "package": "kriswallsmith/buzz",
             "version": "v0.6"
+        },
+        {
+            "package": "manuelpichler/pivotal-tracker-api",
+            "version": "dev-master",
+            "source-reference": "1.0.1"
         }
     ],
     "packages-dev": null,
@@ -21,6 +22,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "manuelpichler/pivotal-tracker-api": 20,
         "knplabs/github-api": 20
     }
 }
