@@ -1,0 +1,26 @@
+{
+    "hash": "787a2339c64366eeb8f4fe3aa21903ed",
+    "packages": [
+        {
+            "package": "codazoda/pptc",
+            "version": "0.1"
+        },
+        {
+            "package": "knplabs/github-api",
+            "version": "dev-master",
+            "source-reference": "725bf7c990a3b2bb5e248b700ccf090f51d499f4"
+        },
+        {
+            "package": "kriswallsmith/buzz",
+            "version": "v0.6"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "knplabs/github-api": 20
+    }
+}

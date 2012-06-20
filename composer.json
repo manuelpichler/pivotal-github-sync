@@ -1,0 +1,27 @@
+{
+    "name":         "manuelpichler/pivotal-github-sync",
+    "description":  "Tool to synchronize GitHub and Pivotaltracker issues bidirectional.",
+    "homepage":     "https://github.com/manuelpichler/manuelpichler/pivotal-github-sync",
+    "keywords":     ["pivotaltracker", "github", "synchronize", "issue"],
+    "license":      "GPLv3",
+    "type":         "library",
+    "authors": [
+        {
+            "name": "Manuel Pichler",
+            "email": "mapi@manuel-pichler.de",
+            "homepage": "http://manuel-pichler.de/"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.0",
+        "manuelpichler/pivotal-tracker-api": "dev-master",
+        "knplabs/github-api": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "PivotalGitHubSync": "src/main/php/"
+        }
+    }
+}
