@@ -1,7 +1,16 @@
 <?php
+/**
+ * This file is part of the PivotalGitHubSync component.
+ *
+ * @version 1.0
+ * @copyright Copyright (c) 2012 Manuel Pichler
+ * @license GPL licenses.
+ */
 
 namespace PivotalGitHubSync;
 
+// Initialize autoload stuff
 require __DIR__ . '/vendor/autoload.php';
 
+// Run default shell tool
 exit( Cli::main() );
