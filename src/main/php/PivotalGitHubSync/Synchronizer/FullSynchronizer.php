@@ -4,7 +4,7 @@
  *
  * @version 1.0
  * @copyright Copyright (c) 2012 Manuel Pichler
- * @license GPL licenses.
+ * @license GPL v3 license
  */
 
 namespace PivotalGitHubSync\Synchronizer;
