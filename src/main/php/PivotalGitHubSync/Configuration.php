@@ -77,13 +77,13 @@ class Configuration
     }
 
     /**
-     * Returns the API token that is required to access the GitHub API.
+     * Returns password to authenticate against the GitHub API.
      *
      * @return string
      */
-    public function getGitHubToken()
+    public function getGitHubPassword()
     {
-        return $this->getSetting( 'github', 'token' );
+        return $this->getSetting( 'github', 'password' );
     }
 
     /**

@@ -132,7 +132,7 @@ class Cli
 
         $github = new GitHubTracker(
             $config->getGitHubUsername(),
-            $config->getGitHubToken(),
+            $config->getGitHubPassword(),
             $config->getGitHubProject(),
             $config->getGitHubOwner()
         );
