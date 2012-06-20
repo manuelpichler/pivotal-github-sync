@@ -1,0 +1,13 @@
+[pivotal]
+username = YourUsername
+password = YourPassword
+project  = NumericProjectID
+
+[github]
+username = YourUsername
+password = YourPassword
+project  = TheGithubProjectName
+
+; Optional project owner. Use this when the username differs from project owner.
+; This may happen when the project is in an organization.
+owner    = OrganizationName
