@@ -1,0 +1,7 @@
+<?php
+
+namespace PivotalGitHubSync;
+
+require __DIR__ . '/vendor/autoload.php';
+
+exit( Cli::main() );
